@@ -13,7 +13,7 @@ public class SelectPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.selectpage);
-        ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        //ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         tViewmodel = new TopViewModel(getApplicationContext());
         bViewmodel = new BottomViewModel(getApplicationContext());
 
