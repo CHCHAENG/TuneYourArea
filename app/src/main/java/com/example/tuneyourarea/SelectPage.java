@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 
 
 public class SelectPage extends AppCompatActivity {
@@ -21,9 +22,10 @@ public class SelectPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.selectpage);
-//
+
 //        btn1 = findViewById(R.id.hiddenbtn1);
 //        btn2 = findViewById(R.id.hiddenbtn2);
+    
 
 //        layout1 = findViewById(R.id.fl1);
 //        layout2 = findViewById(R.id.fl2);
