@@ -3,6 +3,7 @@ package com.example.tuneyourarea;
 import android.content.Context;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 
 public class SelectPage extends AppCompatActivity {
 
@@ -13,7 +14,7 @@ public class SelectPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.selectpage);
-        ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+      //  ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         tViewmodel = new TopViewModel(getApplicationContext());
         bViewmodel = new BottomViewModel(getApplicationContext());
 
