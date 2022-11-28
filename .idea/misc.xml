@@ -3,7 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/oco60/AndroidStudioProjects/TuneYourArea/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/oco60/AndroidStudioProjects/TuneYourArea/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/oco60/AndroidStudioProjects/TuneYourArea/app/src/main/res/layout/activity_picture.xml" value="0.203125" />
         <entry key="..\:/Users/oco60/AndroidStudioProjects/TuneYourArea/app/src/main/res/layout/filteringFragment.xml" value="0.1" />
         <entry key="..\:/Users/oco60/AndroidStudioProjects/TuneYourArea/app/src/main/res/layout/filtering_fragment.xml" value="0.271875" />
@@ -11,7 +11,7 @@
         <entry key="..\:/Users/oco60/AndroidStudioProjects/TuneYourArea/app/src/main/res/layout/mainpage.xml" value="0.25" />
         <entry key="..\:/Users/oco60/AndroidStudioProjects/TuneYourArea/app/src/main/res/layout/playlistpage.xml" value="0.25" />
         <entry key="..\:/Users/oco60/AndroidStudioProjects/TuneYourArea/app/src/main/res/layout/select.xml" value="0.33" />
-        <entry key="..\:/Users/oco60/AndroidStudioProjects/TuneYourArea/app/src/main/res/layout/selectpage.xml" value="0.25" />
+        <entry key="..\:/Users/oco60/AndroidStudioProjects/TuneYourArea/app/src/main/res/layout/selectpage.xml" value="0.22" />
       </map>
     </option>
   </component>

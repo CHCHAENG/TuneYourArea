@@ -9,5 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="background">#F7F7F7</color>
-    <color name="change">#95A6ED</color>
+    <color name="fill">#E7EAF6</color>
+    <color name="out">#A2A8D3</color>
+    <color name="text">#D9141414</color>
 </resources>

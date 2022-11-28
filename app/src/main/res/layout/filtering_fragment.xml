@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:background="@color/white"
+    android:background="@color/background"
     >
+
     <TextView
         android:id="@+id/FilteringText"
         android:layout_width="158dp"
@@ -17,6 +18,7 @@
         android:layout_marginBottom="654dp"
         android:gravity="center"
         android:text="Filtering"
+        android:textColor="@color/text"
         android:textAlignment="center"
         android:textSize="23sp" />
 
@@ -43,6 +45,7 @@
         android:layout_marginBottom="432dp"
         android:gravity="center"
         android:text="Valence"
+        android:textColor="@color/text"
         android:textAlignment="center"
         android:textSize="20sp" />
 
@@ -73,6 +76,7 @@
         android:layout_marginBottom="231dp"
         android:gravity="center"
         android:text="Arousal"
+        android:textColor="@color/text"
         android:textAlignment="center"
         android:textSize="20sp" />
 
