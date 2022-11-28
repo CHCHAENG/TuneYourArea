@@ -47,21 +47,25 @@ public class SelectPage extends AppCompatActivity {
             }
         });
 
-//        hidden1.setOnClickListener(new View.OnClickListener(){
-//            @Override
-//            public void onClick(View view){
-//                hidden1.setBackgroundColor(context.getResources().getColor(R.color.fill));
-//                in_hidden1.setBackgroundColor(context.getResources().getColor(R.color.out));
-//            }
-//        });
-//
-//        profilebtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view){
-//                hidden2.setBackgroundColor(context.getResources().getColor(R.color.fill));
-//                in_hidden2.setBackgroundColor(context.getResources().getColor(R.color.out));
-//            }
-//        });
+        hidden1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                hidden1.setBackgroundColor(context.getResources().getColor(R.color.fill));
+                in_hidden1.setBackgroundColor(context.getResources().getColor(R.color.out));
+                Intent intent = new Intent(getApplicationContext(), PictureActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        hidden2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+                hidden2.setBackgroundColor(context.getResources().getColor(R.color.fill));
+                in_hidden2.setBackgroundColor(context.getResources().getColor(R.color.out));
+                Intent intent = new Intent(getApplicationContext(), PictureActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
