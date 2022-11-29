@@ -17,9 +17,6 @@ import androidx.databinding.DataBindingUtil;
 
 public class SelectPage extends AppCompatActivity {
 
-
-
-    Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +39,9 @@ public class SelectPage extends AppCompatActivity {
         gobtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MusicPlaylist.class);
+//                Intent intent = new Intent(getApplicationContext(), MusicPlaylist.class);
+//                startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(), Youtube.class);
                 startActivity(intent);
             }
         });
