@@ -1,61 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".MusicPlaylist">
+    android:orientation="vertical"
+    tools:context=".Youtube"
+    >
 
 
-    <Button
-        android:id="@+id/save"
-        android:layout_width="81dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="312dp"
-        android:layout_marginTop="132dp"
-        android:background="#00ff0000"
-        android:text="Save"
-        android:textColor="@color/text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id ="@+id/playerView"
 
-    <Button
-        android:id="@+id/filtering"
-        android:layout_width="113dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="192dp"
-        android:layout_marginTop="132dp"
-        android:background="#00ff0000"
-        android:text="filtering"
-        android:textColor="@color/text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/back"
-        android:layout_width="75dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="4dp"
-        android:background="#00ff0000"
-        android:text="back"
-        android:textColor="@color/text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/musiclist"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="92dp"
-        android:text="Music list"
-        android:textColor="@color/text"
-        android:textAlignment="center"
-        android:textSize="23sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="전체재생" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+
+
+
+
+
+
+</LinearLayout>

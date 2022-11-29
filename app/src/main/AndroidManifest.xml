@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.tuneyourarea">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
 
     <application
 
@@ -13,6 +20,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TuneYourArea"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31"
         >
         <activity
@@ -46,6 +54,17 @@
         </activity>
         <activity
             android:name=".MusicPlaylist"
+            android:exported="true"
+            tools:ignore="IntentFilterExportedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Youtube"
             android:exported="true"
             tools:ignore="IntentFilterExportedReceiver">
             <intent-filter>
